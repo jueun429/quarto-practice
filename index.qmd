@@ -79,13 +79,13 @@ library(DT)
 -   kable (STATIC, PDF)
 
 ```{r}
-knitr::kable(head(iris))
+knitr::kable(head(ex))
 ```
 
 -   reactable
 
 ```{r}
-reactable::reactable(head(iris))
+reactable::reactable(ex)
 
 ```
 
@@ -97,7 +97,7 @@ reactable::reactable(ex)
 -   DT
 
 ```{r}
-DT::datatable(head(iris))
+DT::datatable(ex)
 ```
 
 ```{r}
